@@ -1,0 +1,148 @@
+@import url(/Styles/Reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=David+Libre:wght@400;500;700&display=swap');
+
+
+body{
+    
+     background:   #A9B2AC;
+}
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "h h h"
+      "c j j" 
+      "k k k";
+      
+     
+  }
+
+  
+  .h { grid-area: h; 
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background: rgba(0, 0, 0, 0.3);
+ height:40vh ; 
+ font-family: 'andika' sans-serif;
+ font-size: 30px;
+ font-weight: 700;
+ 
+
+}
+  
+  .c { 
+    grid-area: c; 
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    gap: 15px;
+    padding-left: 15px;
+    
+    
+}
+.k{
+    display: flex;
+    gap: 40vh;
+    justify-content: center;
+    height: 30vh;
+    grid-area: k;
+    align-items: center;
+    height: 30vh;
+    width: 199vh;
+    background: rgba(0, 0, 0, 0.3);
+}
+.j{
+    grid-area: j;
+}
+
+
+  
+#portifolio{
+    border-radius: 33px;
+    height: 30vh;
+   
+}
+
+#hobbies{
+  border-radius: 33px;
+  height: 30vh;
+
+}
+#estudos{
+  border-radius: 33px;
+  height: 30vh;
+}
+
+.pag2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border: none;
+    background: #A9B2AC;
+     
+}
+.pag3{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+ 
+.pag4{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.link{
+    font-family: 'andika' sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    background-color: #464F51;
+    border-radius: 20px;
+    width: 16vh;
+    height: 5vh;
+}
+.link-s{
+    
+    font-family: 'andika' sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.link-t{
+    font-family: 'andika' sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.link-s:hover{
+    background-color: #464F51;
+    border-radius: 20px;
+    width: 14vh;
+    height: 5vh;
+}
+.link-t:hover{
+    background-color: #464F51;
+    border-radius: 20px;
+    height: 5vh;
+    width: 14vh;
+}
+#insta{
+   padding-left: 50vh;
+}
+#git{
+    padding-left: 50vh;
+}
+#linkedin{
+    padding-left: 50vh;
+}
+  
