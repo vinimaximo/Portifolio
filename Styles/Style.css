@@ -5,6 +5,7 @@
 body{
     
      background:   #A9B2AC;
+    
 }
 .container {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -35,6 +36,7 @@ background: rgba(0, 0, 0, 0.3);
 }
   
   .c { 
+    
     grid-area: c; 
     display: flex;
     flex-direction: column;
